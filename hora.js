@@ -22,8 +22,8 @@ function get_time_campanal_tradicional(hour, minute) {
     if (minute == 27 || minute == 28) return "Un quart i mig ben passat " + get_de(hour) + get_hour(hour);
     if (minute == 29 || minute == 30 || minute == 31) return "Dos quarts " + get_de(hour) + get_hour(hour);
 
-    if (minute == 32 || minute == 33 || minute == 34) return "Dos quarts tocats " + get_de(hour) + get_hour(hour);
-    if (minute == 35 || minute == 36) return "Dos quarts ben tocats " + get_de(hour) + get_hour(hour);
+    if (minute == 32 || minute == 33 || minute == 34) return "La meya pasada " + get_de(hour) + get_hour(hour);
+    if (minute == 35 || minute == 36) return "La meya bien pasada " + get_de(hour) + get_hour(hour);
     if (minute == 37 || minute == 38) return "Dos quarts i mig " + get_de(hour) + get_hour(hour);
     if (minute == 39 || minute == 40 || minute == 41) return "Dos quarts i mig passats " + get_de(hour) + get_hour(hour);
     if (minute == 42 || minute == 43) return "Dos quarts i mig ben passats " + get_de(hour) + get_hour(hour);
