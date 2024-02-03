@@ -1,6 +1,6 @@
 # Introduction
 
-Javascript implementation of a service that provides the hour in Catalan language.
+Javascript implementation of a service that provides the hour in Aragonese language.
 
 # Development
 
