@@ -128,7 +128,7 @@ function get_time_reloche(hour, minute) {
     if (minute == 4) return get_article(hour) + " " + get_hour(hour) + " y cuatre (minutos)";
     if (minute == 5) return get_article(hour) + " " + get_hour(hour) + " y cinco (minutos)";
     if (minute == 6) return get_article(hour) + " " + get_hour(hour) + " y seis (minutos)";
-    if (minute == 7) return get_article(hour) + " " + get_hour(hour) + " y seet (minutos)";
+    if (minute == 7) return get_article(hour) + " " + get_hour(hour) + " y siet (minutos)";
     if (minute == 8) return get_article(hour) + " " + get_hour(hour) + " y ueito (minutos)";
     if (minute == 9) return  get_article(hour) + " " + get_hour(hour) + " y nueu (minutos)";
     if (minute == 10) return get_article(hour) + " " + get_hour(hour) + " y diez (minutos)";
@@ -138,7 +138,7 @@ function get_time_reloche(hour, minute) {
     if (minute == 14) return get_article(hour) + " " + get_hour(hour) + " y catorce (minutos)";
     if (minute == 15) return get_article(hour) + " " + get_hour(hour) + " y cuarto";
 
-    if (minute == 16) return get_article(hour) + " " + get_hour(hour) + " y deciseis/sece (minutos)";
+    if (minute == 16) return get_article(hour) + " " + get_hour(hour) + " y deciseis (minutos)";
     if (minute == 17) return get_article(hour) + " " + get_hour(hour) + " y decisiet (minuts)";
     if (minute == 18) return get_article(hour) + " " + get_hour(hour) + " y deciueito (minuts)";
     if (minute == 19) return get_article(hour) + " " + get_hour(hour) + " y decinueu (minuts)";
@@ -170,34 +170,34 @@ function get_time_reloche(hour, minute) {
     if (minute == 44) return get_article(hour) + " " + get_hour(hour) + " menos deciseis/sece (minuts)";
     if (minute == 45) return get_article(hour) + " " + get_hour(hour) + " menos cuarto";
 
-    if (minute == 46) return get_article(hour) + " " + get_hour(hour) + " menos catorce (minuts)";
-    if (minute == 47) return get_article(hour) + " " + get_hour(hour) + " menos trece (minuts)";
-    if (minute == 48) return get_article(hour) + " " + get_hour(hour) + " menos doce (minuts)";
-    if (minute == 49) return get_article(hour) + " " + get_hour(hour) + " menos once (minuts)";
-    if (minute == 50) return get_article(hour) + " " + get_hour(hour) + " menos diez (minuts)";
-    if (minute == 51) return get_article(hour) + " " + get_hour(hour) + " menos nueu (minuts)";
-    if (minute == 52) return get_article(hour) + " " + get_hour(hour) + " menos ueito (minuts)";
-    if (minute == 53) return get_article(hour) + " " + get_hour(hour) + " menos siet (minuts)";
-    if (minute == 54) return get_article(hour) + " " + get_hour(hour) + " menos seis (minuts)";
-    if (minute == 55) return get_article(hour) + " " + get_hour(hour) + " menos cinco (minuts)";
-    if (minute == 56) return get_article(hour) + " " + get_hour(hour) + " menos cuatre (minuts)";
-    if (minute == 57) return get_article(hour) + " " + get_hour(hour) + " menos tres (minuts)";
-    if (minute == 58) return get_article(hour) + " " + get_hour(hour) + " menos dos (minuts)";
-    if (minute == 59) return get_article(hour) + " " + get_hour(hour) + " menos un (minut)";
+    if (minute == 46) return get_article(hour) + " " + get_hour(hour) + " menos catorce (minutos)";
+    if (minute == 47) return get_article(hour) + " " + get_hour(hour) + " menos trece (minutos)";
+    if (minute == 48) return get_article(hour) + " " + get_hour(hour) + " menos doce (minutos)";
+    if (minute == 49) return get_article(hour) + " " + get_hour(hour) + " menos once (minutos)";
+    if (minute == 50) return get_article(hour) + " " + get_hour(hour) + " menos diez (minutos)";
+    if (minute == 51) return get_article(hour) + " " + get_hour(hour) + " menos nueu (minutos)";
+    if (minute == 52) return get_article(hour) + " " + get_hour(hour) + " menos ueito (minutos)";
+    if (minute == 53) return get_article(hour) + " " + get_hour(hour) + " menos siet (minutos)";
+    if (minute == 54) return get_article(hour) + " " + get_hour(hour) + " menos seis (minutos)";
+    if (minute == 55) return get_article(hour) + " " + get_hour(hour) + " menos cinco (minutos)";
+    if (minute == 56) return get_article(hour) + " " + get_hour(hour) + " menos cuatre (minutos)";
+    if (minute == 57) return get_article(hour) + " " + get_hour(hour) + " menos tres (minutos)";
+    if (minute == 58) return get_article(hour) + " " + get_hour(hour) + " menos dos (minutos)";
+    if (minute == 59) return get_article(hour) + " " + get_hour(hour) + " menos un (minuto)";
 
 
     return "no lo sé";
 }
 
 
-function get_de(hour) {
+//function get_de(hour) {
 
-    if (hour == 1 || hour == 13 ||
-        hour == 11 || hour == 23)
-        return "d'";
-
-    return "de ";
-}
+//    if (hour == 1 || hour == 13 ||
+//        hour == 11 || hour == 23)
+//        return "d'";
+//
+//    return "de ";
+//}
 
 
 function get_article(hour) {
